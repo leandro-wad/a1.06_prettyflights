@@ -1,0 +1,11 @@
+{
+  "name": "prettyflights-totem-checkin",
+  "version": "1.0.0",
+  "description": "Módulo Totem Check-in PrettyFlights",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "author": "PrettyFlights Dev Team"
+}

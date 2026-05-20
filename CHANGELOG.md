@@ -11,3 +11,10 @@
 ### Infraestrutura
 - Estrutura de projeto Node.js
 - Configuração de .gitignore
+
+## [1.0.1] — Hotfix
+
+### Corrigido
+- **CRÍTICO:** Validação de código de reserva rejeitava letras minúsculas,
+  impedindo check-in de ~30% dos passageiros. Correção: normalização para
+  maiúsculas antes da validação com regex.
